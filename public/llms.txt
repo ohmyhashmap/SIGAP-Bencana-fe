@@ -1,0 +1,19 @@
+# SIGAP Bencana
+
+> Platform peringatan dini dan pelaporan bencana untuk masyarakat Indonesia: laporan kejadian bencana dari warga, deteksi titik panas kebakaran hutan dan lahan (karhutla), prakiraan cuaca dan kualitas udara, serta rekomendasi kesehatan berbasis aturan.
+
+SIGAP Bencana mengintegrasikan laporan warga, data satelit titik panas, prakiraan cuaca, dan kualitas udara untuk memberikan panduan mitigasi bencana yang tepat sasaran, mulai dari banjir, tanah longsor, gempa bumi, erupsi gunung api, cuaca ekstrem, hingga kabut asap.
+
+## Fitur Utama
+
+- [Beranda](https://ifs24039-pabwe2026-proyek1.s1if.cloud/): Ringkasan peringatan dini bencana, titik panas karhutla, dan berita kebencanaan terbaru.
+- [Peta Interaktif](https://ifs24039-pabwe2026-proyek1.s1if.cloud/peta): Peta titik panas dengan prediksi lintasan asap, kondisi cuaca, kualitas udara, dan pelaporan kejadian langsung dari peta.
+- [Statistik](https://ifs24039-pabwe2026-proyek1.s1if.cloud/statistik): Sebaran titik panas per provinsi dan distribusi kualitas udara.
+- [Berita & Edukasi](https://ifs24039-pabwe2026-proyek1.s1if.cloud/berita): Artikel kesiapsiagaan bencana dan kabar kebencanaan nasional.
+- [Laporan Warga](https://ifs24039-pabwe2026-proyek1.s1if.cloud/lapor): Pelaporan kejadian bencana (banjir, longsor, gempa, karhutla, erupsi, cuaca ekstrem) oleh masyarakat.
+- [Tentang Platform](https://ifs24039-pabwe2026-proyek1.s1if.cloud/tentang): Arsitektur, sumber data, dan inovasi platform SIGAP Bencana.
+
+## Dokumentasi API & Backend
+
+- [SIGAP Bencana API](https://ifs24039-pabwe2026-proyek1-be.s1if.cloud/api/v1): Indeks REST API untuk laporan warga, titik panas, kualitas udara, berita, dan autentikasi pengguna.
+- [AI Catalog Manifest](https://ifs24039-pabwe2026-proyek1.s1if.cloud/.well-known/ai-catalog.json): Manifest kemampuan agen cerdas sesuai standar Agentic Resource Discovery (ARD).

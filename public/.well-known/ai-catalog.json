@@ -1,0 +1,21 @@
+{
+	"specVersion": "1.0",
+	"host": {
+		"displayName": "SIGAP Bencana",
+		"identifier": "ifs24039-pabwe2026-proyek1.s1if.cloud"
+	},
+	"entries": [
+		{
+			"identifier": "urn:air:ifs24039-pabwe2026-proyek1.s1if.cloud:api:v1",
+			"displayName": "SIGAP Bencana Disaster Monitoring API",
+			"type": "application/ai-catalog+json",
+			"url": "https://ifs24039-pabwe2026-proyek1-be.s1if.cloud/api/v1/stats",
+			"description": "Layanan peringatan dini bencana di Indonesia: laporan kejadian bencana dari warga, titik panas kebakaran hutan dan lahan, serta kualitas udara (AQI) secara real-time.",
+			"representativeQueries": [
+				"Laporan kejadian bencana terbaru dari warga",
+				"Tampilkan titik panas kebakaran hutan terkini di Indonesia",
+				"Apa rekomendasi kesehatan saat kualitas udara memburuk?"
+			]
+		}
+	]
+}
