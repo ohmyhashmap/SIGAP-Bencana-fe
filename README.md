@@ -40,3 +40,5 @@ Panduan form audit Lighthouse & Axe Core: `docs/AUDIT.md`.
 Deploy repository ini ke Vercel dengan root directory `.`, build command
 `npm run build`, dan output directory `dist`. Deploy backend repository secara
 terpisah ke host Node.js, lalu set `VITE_API_URL` pada project Vercel ke URL BE.
+Jenkinsfile hanya disimpan di repository BE; deploy FE ditangani integrasi GitHub
+Vercel.
