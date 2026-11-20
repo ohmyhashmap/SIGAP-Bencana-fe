@@ -53,3 +53,6 @@ Setelah deploy:
 3. Uji halaman statistik, daftar/login, forum, dan akses API yang terproteksi.
 4. Jika browser melaporkan CORS, set `CORS_ORIGIN` di BE menjadi origin FE Vercel
    yang tepat, misalnya `https://sigap-bencana-fe.vercel.app`, tanpa slash akhir.
+5. Siapkan Redis pada layanan yang dapat dijangkau BE dan isi `REDIS_URL` pada
+   environment backend. Redis wajib pada production; tanpa itu server BE tidak
+   akan start.
